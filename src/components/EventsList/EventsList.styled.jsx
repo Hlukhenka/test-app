@@ -7,8 +7,12 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  padding: 30px;
+  padding: 40px;
   border: 1px solid grey;
   width: 440px;
-  height: 300px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 `;
