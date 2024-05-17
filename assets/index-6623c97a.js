@@ -128,10 +128,14 @@ Error generating stack: `+i.message+`
   flex-wrap: wrap;
   gap: 25px;
 `,yk=Ce.li`
-  padding: 30px;
+  padding: 40px;
   border: 1px solid grey;
   width: 440px;
-  height: 300px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 `,gk=()=>{const e=Oo(zy);return O.jsx(O.Fragment,{children:O.jsx(mk,{children:e.map(({title:t,description:n,_id:r})=>O.jsxs(yk,{children:[O.jsx("p",{children:t}),O.jsx("p",{children:n}),O.jsx(lr,{to:{pathname:"/registerPage"},state:{_id:r},children:"Register"})," ",O.jsx(lr,{to:`event/${r}`,children:"View"})]},r))})})};/*! *****************************************************************************
 Copyright (c) Microsoft Corporation. All rights reserved.
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
