@@ -128,10 +128,10 @@ Error generating stack: `+i.message+`
   flex-wrap: wrap;
   gap: 15px;
 `,yk=Ce.li`
-  padding: 20px;
+  padding: 30px;
   border: 1px solid grey;
   width: 440px;
-  height: 200px;
+  height: 300px;
 `,gk=()=>{const e=Oo(zy);return O.jsx(O.Fragment,{children:O.jsx(mk,{children:e.map(({title:t,description:n,_id:r})=>O.jsxs(yk,{children:[O.jsx("p",{children:t}),O.jsx("p",{children:n}),O.jsx(lr,{to:{pathname:"/registerPage"},state:{_id:r},children:"Register"})," ",O.jsx(lr,{to:`event/${r}`,children:"View"})]},r))})})};/*! *****************************************************************************
 Copyright (c) Microsoft Corporation. All rights reserved.
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
@@ -179,7 +179,7 @@ and limitations under the License.
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-`,Rk=()=>{const[e,t]=R.useState(""),n=kc(),r=Do();console.log(r);const o=r.state._id,i=s=>{t(s.target.value)},l=s=>{s.preventDefault();const{name:u,email:a,date:c}=s.target.elements;n(Ii({name:u.value,email:a.value,birth:c.value,aboutEvent:e,_id:o})),s.target.reset()};return O.jsxs(Bl,{children:[O.jsx(lr,{to:{pathname:`/eventBoard/event/${o}`},children:"Go Back"}),O.jsx("h1",{children:"Register"}),O.jsxs(_k,{onSubmit:l,children:[O.jsxs(Ys,{children:["Name",O.jsx("input",{type:"text",name:"name"})]}),O.jsxs(Ys,{children:["Email",O.jsx("input",{type:"email",name:"email"})]}),O.jsxs(Ys,{children:["Date of birth",O.jsx("input",{type:"text",name:"date"})]}),O.jsx("p",{children:"Where did you hear about this event?"}),O.jsxs(qs,{children:[O.jsx(Gs,{type:"radio",name:"option",value:"Social media",onChange:i}),"Social media"]}),O.jsxs(qs,{children:[O.jsx(Gs,{type:"radio",name:"option",value:"Friends",onChange:i}),"Friends"]}),O.jsxs(qs,{children:[O.jsx(Gs,{type:"radio",name:"option",value:"Found myself",onChange:i}),"Found myself"]}),O.jsx(Pk,{type:"submit",children:"Register"})]})]})};const Tk=Ce.div`
+`,Rk=()=>{const[e,t]=R.useState(""),n=kc(),o=Do().state._id,i=s=>{t(s.target.value)},l=s=>{s.preventDefault();const{name:u,email:a,date:c}=s.target.elements;n(Ii({name:u.value,email:a.value,birth:c.value,aboutEvent:e,_id:o})),s.target.reset()};return O.jsxs(Bl,{children:[O.jsx(lr,{to:{pathname:`/eventBoard/event/${o}`},children:"Go Back"}),O.jsx("h1",{children:"Register"}),O.jsxs(_k,{onSubmit:l,children:[O.jsxs(Ys,{children:["Name",O.jsx("input",{type:"text",name:"name"})]}),O.jsxs(Ys,{children:["Email",O.jsx("input",{type:"email",name:"email"})]}),O.jsxs(Ys,{children:["Date of birth",O.jsx("input",{type:"text",name:"date"})]}),O.jsx("p",{children:"Where did you hear about this event?"}),O.jsxs(qs,{children:[O.jsx(Gs,{type:"radio",name:"option",value:"Social media",onChange:i}),"Social media"]}),O.jsxs(qs,{children:[O.jsx(Gs,{type:"radio",name:"option",value:"Friends",onChange:i}),"Friends"]}),O.jsxs(qs,{children:[O.jsx(Gs,{type:"radio",name:"option",value:"Found myself",onChange:i}),"Found myself"]}),O.jsx(Pk,{type:"submit",children:"Register"})]})]})};const Tk=Ce.div`
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
