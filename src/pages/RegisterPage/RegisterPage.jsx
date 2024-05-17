@@ -16,7 +16,6 @@ const RegisterPage = () => {
   const dispatch = useDispatch();
   const location = useLocation();
 
-  console.log(location);
   const eventId = location.state._id;
 
   const handleRadioChange = (e) => {

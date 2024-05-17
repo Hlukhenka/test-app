@@ -7,8 +7,8 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  padding: 20px;
+  padding: 30px;
   border: 1px solid grey;
   width: 440px;
-  height: 200px;
+  height: 300px;
 `;
