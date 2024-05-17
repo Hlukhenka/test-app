@@ -39,6 +39,8 @@ const EventBoard = () => {
       <Title>Events</Title>
 
       {isLoading ? (
+        <p>Loading...</p>
+      ) : (
         <InfiniteScroll
           next={fetchMoreData}
           dataLength={events.length}
@@ -47,10 +49,7 @@ const EventBoard = () => {
           useWindow={false}
         >
           <EventsList />
-          
         </InfiniteScroll>
-      ) : (
-        <p>Loading...</p>
       )}
     </Container>
   );
