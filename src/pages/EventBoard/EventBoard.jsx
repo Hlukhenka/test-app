@@ -47,6 +47,7 @@ const EventBoard = () => {
           useWindow={false}
         >
           <EventsList />
+          
         </InfiniteScroll>
       ) : (
         <p>Loading...</p>
